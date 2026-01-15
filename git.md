@@ -36,3 +36,10 @@ Then change the URL of `origin` to point the host `other-github`.
 # Change URL to point
 git remote set-url origin git@other-github:${project}/${repository}.git
 ```
+
+# Change the last commit
+
+```sh
+# Change the email of the last commit
+git commit --amend --author="Your Name <email@example.com>"
+```
