@@ -7,7 +7,7 @@
 ssh -N -R ${bind_address}:${remote_port}:localhost:${local_port} ${user@remote_host}
 
 # Setup reverse tunnel to expose a port not automatically
-# exposed by the host port (when `GatewayPorts` is not set to `yes`)
+# exposed by the host $port (when `GatewayPorts` is not set to `yes`)
 ssh -N -R :${remote_port}:localhost:${local_port} ${user@remote_host}
 ```
 

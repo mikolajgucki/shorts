@@ -37,6 +37,13 @@ Then change the URL of `origin` to point the host `other-github`.
 git remote set-url origin git@other-github:${project}/${repository}.git
 ```
 
+# Origin
+
+```sh
+# Add remote
+git remote add origin git@other-github:${project}/${repository}.git
+```
+
 # Change the last commit
 
 ```sh
